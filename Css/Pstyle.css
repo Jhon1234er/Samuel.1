@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+.Titulo{
+    color:cadetblue;
+    font-family: Rubik Wet Paint ;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+.Informacion{
+    background-color:lightsteelblue;
+    border-radius: 10px 10px 30px 40px;
+    margin-top: 60px;
+    left: 20%;
+    width: 1000px;
+    position: relative;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

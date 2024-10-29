@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+body{
+    margin: 0%;
+    background-color:floralwhite;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navegador{
+    background-color:teal; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.link__Pag--Modifica{
+    color:cadetblue;
+    margin: 0% 30px;
+    text-decoration:none;
+    font-family: Rubik Wet Paint ;
+}
+
+.Titulo{
+    font-family: Rubik Wet Paint ;
+    text-align: center;
+}
+
