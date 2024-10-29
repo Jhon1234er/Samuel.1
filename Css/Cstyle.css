@@ -2,7 +2,6 @@
 
 body {
     margin: 0;
-    overflow: hidden;
 }
 
 .Ulti {
@@ -23,6 +22,7 @@ body {
     background-color: cadetblue; 
     height: 50px;
     position: relative;
+    display: grid;
 }
 
 .links {

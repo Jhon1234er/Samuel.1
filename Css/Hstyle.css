@@ -2,17 +2,17 @@
 
 body {
     margin: 0;
-    overflow: hidden;
+    place-items: center;
 }
 
 .Ulti {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    display: grid;
 }
 
 .items {
@@ -21,8 +21,12 @@ body {
 
 .Contenido {
     background-color: cadetblue; 
-    height: 50px;
-    position: relative;
+    border-radius: 10px ;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    margin: 120px 500px 300px; 
+    display: grid;
 }
 
 .links {
@@ -30,6 +34,7 @@ body {
     text-decoration: none;
     font-family: 'Rubik Wet Paint', sans-serif;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Ulti__links--github {
@@ -39,10 +44,12 @@ body {
 .Titulo {
     color: #333333;
     font-family: 'Rubik Wet Paint', sans-serif;
+    font-weight: 100;
+    font-size: xx-large;
     text-align: center;
     z-index: 1;
     position: relative;
-    font-weight: 100;
+    margin-top: 50px;
 }
 
 .video{

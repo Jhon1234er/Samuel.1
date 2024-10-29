@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 body {
     margin: 0;
-    overflow: hidden;
 }
 
 .Ulti {
@@ -22,6 +21,7 @@ body {
     background-color: cadetblue; 
     height: 50px;
     position: relative;
+    display: grid;
 }
 
 .links {
