@@ -1,15 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 
-.Titulo{
-    color:cadetblue;
-    font-family: Rubik Wet Paint ;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 100;
+body {
+    margin: 0;
+    overflow: hidden;
 }
 
-.Informacion{
-    background-color:lightsteelblue;
+.Ulti {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.items {
+    margin: 0 30px;
+}
+
+.Contenido {
+    background-color: cadetblue; 
+    height: 50px;
+    position: relative;
+}
+
+.links {
+    color: teal;
+    text-decoration: none;
+    font-family: 'Rubik Wet Paint', sans-serif;
+}
+
+
+.Perfil {
+    background-color: lightsteelblue;
     border-radius: 10px 10px 30px 40px;
     margin-top: 60px;
     left: 20%;
@@ -19,6 +43,35 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.text{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.Titulo {
+    color: darkcyan;
+    font-family: 'Rubik Wet Paint', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+.info {
+    margin: 10px 0;
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    z-index: -1;
 }
